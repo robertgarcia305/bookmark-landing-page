@@ -1,0 +1,277 @@
+@font-face {
+    font-family: "rubik-reg";
+    src: url("fonts/Rubik-Regular.ttf");
+}
+
+@font-face {
+    font-family: "rubik-bold";
+    src: url("fonts/Rubik-Bold.ttf");
+}
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: rubik-reg;
+}
+
+ul {
+    padding: 0px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/*nav*/
+.mobile-nav-wrap {
+    display: none;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+.desktop-nav-wrap {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #5366df;
+}
+
+.logo-nav-wrap {
+    margin-left: 70px;
+}
+
+.right-nav {
+    font-family: rubik-reg;
+    display: flex;
+    margin-right: 70px;
+}
+
+.right-nav li {
+    margin: 0px 10px;
+}
+
+.right-nav a:hover {
+    color: #e05a5a;
+}
+
+.login {
+    background-color: #e05a5a;
+    color: white;
+    border-radius: 15px;
+    padding: 14px 20px;
+    border: 2px solid #e05a5a;
+}
+
+.login:hover {
+    background-color: #ffffff;
+    color: white;
+    border: 2px solid #e05a5a;
+    border-radius: 15px;
+    padding: 14px 20px;
+}
+
+/*hero text*/
+.hero-wrap {
+    display: flex;
+    margin: 100px 0px;
+}
+
+.hero-text-wrap {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    justify-content: center;
+}
+
+.hero-text-wrap h3 {
+    font-size: 45px;
+    font-family: rubik-bold;
+}
+
+.hero-text-wrap p {
+    font-size: 20px;
+    margin: 30px 0px;
+}
+
+.hero-button-wrap {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 18px;
+}
+
+.chrome-btn {
+    background-color: #5366df;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 2px solid #5366df;
+    margin-right: 20px;
+    transition: all 0.5s;
+}
+
+.chrome-btn:hover {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 2px solid #5366df;
+    margin-right: 20px;
+}
+
+.fire-btn {
+    background-color: #cfcfcf;
+    border: 2px solid #cfcfcf;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: #000000;
+    transition: all 0.5s;
+}
+
+.fire-btn:hover {
+    background-color: #ffffff;
+    border: 2px solid #cfcfcf;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: #000000;
+}
+
+.hero-image-wrap {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-one img {
+    width: 80%;
+}
+
+
+
+/*feature*/
+.features-wrap {
+    background-color: #f3f3f3;    
+    padding: 100px 0px;
+}
+
+.features-hero-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features-hero-wrap h3 {
+    font-size: 40px;
+    font-family: rubik-bold;
+    margin-bottom: 30px;
+}
+
+.features-hero-wrap p {
+    font-size: 20px;
+    font-family: rubik-reg;
+    width: 50%;
+    text-align: center;
+}
+
+.features-tab div {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.features-tab div p {
+    padding: 10px 20px;
+    font-size: 25px;
+}
+
+.features-tab div p:hover {
+    color: #e05a5a;
+    cursor: pointer;
+}
+
+.active {
+    border-bottom: 3px solid #e05a5a;
+    color: #e05a5a;
+}
+
+.feat-block {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.features-img-wrap {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-text-wrap {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.features-text-wrap h3 {
+    font-size: 40px;
+    font-family: rubik-bold;
+}
+
+.features-text-wrap p {
+    font-size: 20px;
+    font-family: rubik-reg;
+    margin: 20px 0px;
+}
+
+.features-text-wrap a {
+    font-size: 20px;
+    font-family: rubik-reg;
+    padding: 10px 20px;
+    background-color: #5366df;
+    border: 2px solid #5366df;
+    border-radius: 15px;
+    transition: all 0.5s;
+    color: white;
+}
+
+.features-text-wrap a:hover {
+    font-size: 20px;
+    color: #000000;
+    font-family: rubik-reg;
+    padding: 10px 20px;
+    background-color: #5366df00;
+    border: 2px solid #5366df;
+    border-radius: 15px;
+}
+
+
+/*extension*/
+
+
+/*faq*/
+
+
+/*subscribe*/
+
+
+/*footer*/
