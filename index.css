@@ -37,7 +37,7 @@ nav {
     position: sticky;
     top: 0px;
     background-color: white;
-    z-index: 2;
+    z-index: 10;
 }
 
 .desktop-nav-wrap {
@@ -169,6 +169,8 @@ nav {
 .features-wrap {
     background-color: #f3f3f3;    
     padding: 100px 0px;
+    height: 1000px;
+    overflow: hidden;
 }
 
 .features-hero-wrap {
@@ -207,6 +209,10 @@ nav {
     cursor: pointer;
 }
 
+.features-why-wrap {
+    overflow: hidden;
+}
+
 .active {
     border-bottom: 3px solid #e05a5a;
     color: #e05a5a;
@@ -215,6 +221,26 @@ nav {
 .feat-block {
     display: flex;
     justify-content: space-evenly;
+    transition: all 0.5s;
+    position: absolute;
+    overflow: hidden;
+}
+
+.show-block {
+    opacity: 1;
+    /*transform: translateX(5%);*/
+    z-index: 5;
+    position: absolute;
+    overflow: hidden;
+    margin-left: 10%;
+}
+
+.hide-block {
+    opacity: 0;
+    transform: translateX(0%);
+    z-index: -5;
+    position: absolute;
+    overflow: hidden;
 }
 
 .features-img-wrap {
@@ -262,10 +288,6 @@ nav {
     background-color: #5366df00;
     border: 2px solid #5366df;
     border-radius: 15px;
-}
-
-.sharing, .searching {
-    display: none;
 }
 
 
@@ -428,10 +450,26 @@ nav {
 
 .accordion-info {
     height: 0px;
+    overflow: hidden;
+    transition: all 1s;
 }
 
 .accordion-info p {
-    display: none;
+    display: block;
+}
+
+.accordion-hide {
+    height: 0px;
+    overflow: hidden;
+}
+
+.accordion-show {
+    height: 50px;
+    overflow: hidden;
+}
+
+.activate {
+
 }
 
 .bottom {
