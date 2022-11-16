@@ -68,9 +68,9 @@
                 <div class="features-why-wrap">
                     <div class="features-tab">
                         <div>
-                            <p class="active">Simple Bookmarking</p>
-                            <p>Speedy Searching</p>
-                            <p>Easy Sharing</p>
+                            <p class="bookmarking-btn active" id="searching-btn">Simple Bookmarking</p>
+                            <p class="searching-btn" id="searching-btn">Speedy Searching</p>
+                            <p class="sharing-btn" id="sharing-btn">Easy Sharing</p>
                         </div>
                     </div>
                     <div class="features-display">
@@ -78,13 +78,13 @@
                             <div class="features-img-wrap">
                                 <img src="img/illustration-features-tab-1.svg">
                             </div>
-                            <div class="features-text-wrap">
+                            <div class="bookmarking features-text-wrap" id="bookmarking-section">
                                 <h3>Bookmark in one click</h3>
                                 <p>Organize your bookmarks however you like. Our simple drap-and-drop interface gives you complete control over how you manage your favorite sites</p>
                                 <p><a href="#">More info</a></p>
                             </div>
                         </div>
-                        <div class="searching feat-block">
+                        <div class="searching feat-block" id="searching-section">
                             <div class="features-img-wrap">
                                 <img src="img/illustration-features-tab-2.svg">
                             </div>
@@ -94,7 +94,7 @@
                                 <p><a href="#">More info</a></p>
                             </div>
                         </div>
-                        <div class="sharing feat-block">
+                        <div class="sharing feat-block" id="sharing-section">
                             <div class="features-img-wrap">
                                 <img src="img/illustration-features-tab-3.svg">
                             </div>
@@ -110,11 +110,11 @@
 
             <div class="extension-wrap">
                 <div class="extension-header-wrap">
-                    <h3>Latest Articles</h3>
-                    <p></p>
+                    <h3>Download the extension</h3>
+                    <p>We've got more browsers on the pipeline. Please do let us know if you've got a favorite you'd like us to prioritize</p>
                 </div>
-                <div class="articles-block-wrap chrome">
-                    <div class="extension-block">
+                <div class="articles-block-wrap">
+                    <div class="extension-block chrome">
                         <div class="extension-top">
                             <div class="img-wrap">
                                 <img src="img/logo-chrome.svg">
@@ -159,12 +159,11 @@
                     <p>Here are some of our FAQ's. if you have any other questions you'd like answered please feel free to email us</p>
                 </div>
                 <div class="accordion-wrap">
-                    <div class="accordion-block">
+                    <div class="accordion-block top">
                         <div class="accordion-top">
                             <p>What is bookmark?</p>
                             <div class="img-wrap">
                                 <img src="img/icon-arrow.svg" alt="">
-                                <img src="img/icon-close.svg" alt="">
                             </div>
                         </div>
                         <div class="accordion-info">
@@ -176,7 +175,6 @@
                             <p>How can i request a new browser?</p>
                             <div class="img-wrap">
                                 <img src="img/icon-arrow.svg" alt="">
-                                <img src="img/icon-close.svg" alt="">
                             </div>
                         </div>
                         <div class="accordion-info">
@@ -188,19 +186,17 @@
                             <p>Is ther a mobile app</p>
                             <div class="img-wrap">
                                 <img src="img/icon-arrow.svg" alt="">
-                                <img src="img/icon-close.svg" alt="">
                             </div>
                         </div>
                         <div class="accordion-info">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, vitae.</p>
                         </div>
                     </div>
-                    <div class="accordion-block">
+                    <div class="accordion-block bottom">
                         <div class="accordion-top">
                             <p>What about other Chromium browsers?</p>
                             <div class="img-wrap">
                                 <img src="img/icon-arrow.svg" alt="">
-                                <img src="img/icon-close.svg" alt="">
                             </div>
                         </div>
                         <div class="accordion-info">
@@ -219,7 +215,7 @@
                 <h3>Stay up-to-date with what we are doing</h3>
                 <div class="subscribe-wrap">
                     <input placeholder="enter your email address">
-                    <p><a href="#">Contact Us</a></p>
+                    <p><a class="btn" href="#">Contact Us</a></p>
                 </div>
             </div>
 
@@ -227,9 +223,6 @@
             <footer>
                 <div class="footer-top">
                     <div class="footer-left">
-                        <div class="img-wrap">
-                            <img src="img/logo-bookmark.svg">
-                        </div>
                         <ul>
                             <li><a href="#">Features</a></li>
                             <li><a href="#">Pricing</a></li>
